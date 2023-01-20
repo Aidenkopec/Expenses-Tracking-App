@@ -1,14 +1,13 @@
-import ExpenseItem from "./components /ExpenseItem";
+import ExpenseItem from "./components /Expenses/ExpenseItem";
+import './components /UI/ExpenseItem.css';
+import DisplayExpenses from "./components /Expenses/DisplayExpenses";
 
-function App() {
-  return (
-    <div>
-        <h2>Let's get started!</h2>
-        <p>Let's get!</p>
-        <b>My Name is aiden</b>
-        <ExpenseItem/>
-    </div>
-  );
+const App = () => {
+    return (
+        <div>
+            <DisplayExpenses/>
+        </div>
+    );
 }
 
 export default App;
