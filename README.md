@@ -1,4 +1,5 @@
 # Track your Expenses 
+This Expenses app is a simple tool to track and organize your expenses. It allows you to input the title, amount, and date of each expense. The date format is in yyyy-mm-dd. You can also cancel or add an expense, and filter expenses by year. The app has a user-friendly interface that makes it easy to navigate and use. You can quickly view expenses by year, making it simple to review your spending habits and budget. With this app, you can easily keep track of your expenses and make better financial decisions.
 
 <img width="1769" alt="Screenshot 2023-01-20 at 4 10 31 PM" src="https://user-images.githubusercontent.com/97480728/213821303-2bbb291a-bd07-4158-b334-78dd06e36e47.png">
 
