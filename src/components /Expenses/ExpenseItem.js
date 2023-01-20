@@ -1,9 +1,10 @@
 import React, {useState} from 'react';
 import ExpenseDate from "./ExpenseDate";
 import Card from "../UI/Card.js"
+
 //Props hold the values of our custom elements
 function ExpenseItem(props) {
-   const [title, setTitle] = useState(props.title);
+    const [title, setTitle] = useState(props.title);
     console.log('Expense Item Evaluated by React')
     const clickHandler = () => {
         setTitle('Updated!');
@@ -16,7 +17,7 @@ function ExpenseItem(props) {
                 <h2>{title}</h2>
             </div>
             <div className="expense-item__price">{props.amount}</div>
-            <button onClick={clickHandler}>Change Title</button>
+            {/*<button onClick={clickHandler}>Change Title</button>*/}
         </Card>
     )
 }
